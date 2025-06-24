@@ -23,7 +23,7 @@ const TodoInput = ({ onAdd }: Props) => {
                 onKeyDown={(e) => e.key === "Enter" && handleAdd()}
             />
             <button
-                className="bg-blue-600 ml-2 text-white px-4 py-2 rounded-md hover:bg-blue-700"
+                className="bg-blue-500 ml-2 text-white px-4 py-2 rounded-md hover:bg-blue-400 cursor-pointer transition-colors"
                 onClick={handleAdd}
             >
                 Add

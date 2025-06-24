@@ -64,7 +64,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-100 to-purple-100 p-8">
-      <div className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg p-6 mt-8">
+      <div className="max-w-2xl mx-auto bg-gray-100 rounded-lg shadow-lg p-6 mt-8">
         <Header title="Todo App" />
         <TodoInput onAdd={handleAdd} />
         <TodoList
